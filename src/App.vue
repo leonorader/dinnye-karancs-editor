@@ -85,7 +85,7 @@
       }
     },
     methods: {
-      runCode() {
+      async runCode() {
         this.code = BlocklyJS.workspaceToCode(this.$refs['editor'].workspace)
         console.log(this.code)
 
