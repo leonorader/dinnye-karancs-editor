@@ -87,12 +87,18 @@
       }
     },
     methods: {
-      async runCode() {
+      // async runCode() {
+      runCode() {
         this.code = BlocklyJS.workspaceToCode(this.$refs['editor'].workspace)
         console.log(this.code)
 
-        let asyncFn = new AsyncFunction(this.code)
-        await asyncFn()
+        new Function(`return async function() { ${this.code} }`)()
+
+        // const F = new Function(this.code)
+        // F()
+
+        // let asyncFn = new AsyncFunction(this.code)
+        // await asyncFn()
       }
     }
   }
