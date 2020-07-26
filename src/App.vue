@@ -91,7 +91,7 @@
         this.code = BlocklyJS.workspaceToCode(this.$refs['editor'].workspace)
         console.log(this.code)
 
-        let asyncFn = new AsyncFunction(code)
+        let asyncFn = new AsyncFunction(this.code)
         await asyncFn()
       }
     }
