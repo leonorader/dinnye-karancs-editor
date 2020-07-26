@@ -92,7 +92,9 @@
         this.code = BlocklyJS.workspaceToCode(this.$refs['editor'].workspace)
         console.log(this.code)
 
-        new Function(`return async function() { ${this.code} }`)()
+        const F = new Function(`return async function() { ${this.code} }`)
+        console.log(F)
+        F()
 
         // const F = new Function(this.code)
         // F()
