@@ -12,7 +12,8 @@ function setHotelColour(colour) {
 }
 
 function setHotelMatrix(data) {
-  axios.put(`${BASE_URL}/hotel/matrix`, data)
+  let matrix = {data: JSON.parse(data)}
+  axios.put(`${BASE_URL}/hotel/matrix`, matrix)
     .then((response)  => {
       console.log(response)
     })
