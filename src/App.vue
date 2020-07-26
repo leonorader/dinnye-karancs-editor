@@ -94,7 +94,9 @@
 
         const F = new Function(`return async function() { ${this.code} }`)
         console.log(F)
-        F()
+        let g = F()
+        console.log(g)
+        g()
 
         // const F = new Function(this.code)
         // F()
