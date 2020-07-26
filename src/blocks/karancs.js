@@ -15,7 +15,7 @@ Blockly.Blocks['karancs_off'] = {
 };
 
 Blockly.JavaScript['karancs_off'] = function(block) {
-  return 'setHotelColour(\'#000\');\n';
+  return 'await setHotelColour(\'#000\');\n';
 };
 
 // turn each room on
@@ -33,7 +33,7 @@ Blockly.Blocks['karancs_on'] = {
 };
 
 Blockly.JavaScript['karancs_on'] = function(block) {
-  return 'setHotelColour(\'#fff\');\n';
+  return 'await setHotelColour(\'#fff\');\n';
 };
 
 // set each room to the same colour
@@ -53,7 +53,7 @@ Blockly.Blocks['karancs_on_with_colour'] = {
 
 Blockly.JavaScript['karancs_on_with_colour'] = function(block) {
   var colour_karancs_colour = block.getFieldValue('karancs-colour');
-  return `setHotelColour(\'${colour_karancs_colour}\');\n`;
+  return `await setHotelColour(\'${colour_karancs_colour}\');\n`;
 };
 
 // set rooms on/off with matrix
@@ -143,7 +143,7 @@ Blockly.JavaScript['karancs_matrix'] = function(block) {
     }
     data.push(floor);
   }
-  return `setHotelMatrix(\'${JSON.stringify(data)}\');\n`;
+  return `await setHotelMatrix(\'${JSON.stringify(data)}\');\n`;
 };
 
 //
@@ -233,7 +233,7 @@ Blockly.JavaScript['karancs_matrix_with_colour'] = function(block) {
     }
     data.push(floor);
   }
-  return `setHotelMatrix(\'${JSON.stringify(data)}\');\n`;
+  return `await setHotelMatrix(\'${JSON.stringify(data)}\');\n`;
 };
 
 // wait
@@ -254,7 +254,7 @@ Blockly.Blocks['wait'] = {
 
 Blockly.JavaScript['wait'] = function(block) {
   var number_duration = block.getFieldValue('duration');
-  return `wait(\'${number_duration}\');\n`;
+  return `await wait(\'${number_duration}\');\n`;
 };
 
 // room off
@@ -280,7 +280,7 @@ Blockly.Blocks['room_off'] = {
 Blockly.JavaScript['room_off'] = function(block) {
   var dropdown_floor = block.getFieldValue('floor');
   var dropdown_room = block.getFieldValue('room');
-  return `setRoomColour(${dropdown_floor}, ${dropdown_room}, \'#000\');\n`;
+  return `await setRoomColour(${dropdown_floor}, ${dropdown_room}, \'#000\');\n`;
 };
 
 // room on
@@ -306,7 +306,7 @@ Blockly.Blocks['room_on'] = {
 Blockly.JavaScript['room_on'] = function(block) {
   var dropdown_floor = block.getFieldValue('floor');
   var dropdown_room = block.getFieldValue('room');
-  return `setRoomColour(${dropdown_floor}, ${dropdown_room}, \'#fff\');\n`;
+  return `await setRoomColour(${dropdown_floor}, ${dropdown_room}, \'#fff\');\n`;
 };
 
 // room on with colour
@@ -334,7 +334,7 @@ Blockly.JavaScript['room_on_with_colour'] = function(block) {
   var colour_colour = block.getFieldValue('colour');
   var dropdown_floor = block.getFieldValue('floor');
   var dropdown_room = block.getFieldValue('room');
-  return `setRoomColour(${dropdown_floor}, ${dropdown_room}, \'${colour_colour}\');\n`;
+  return `await setRoomColour(${dropdown_floor}, ${dropdown_room}, \'${colour_colour}\');\n`;
 };
 
 // entresol

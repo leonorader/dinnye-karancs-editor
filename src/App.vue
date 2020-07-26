@@ -88,7 +88,10 @@
       runCode() {
         this.code = BlocklyJS.workspaceToCode(this.$refs['editor'].workspace)
         console.log(this.code)
-        const F = new Function(this.code)
+
+        let AsyncFunction = Object.getPrototypeOf(async function(){}).constructor
+
+        const F = new AsyncFunction(this.code)
         return (F())
       }
     }
