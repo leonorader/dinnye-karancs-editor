@@ -94,7 +94,7 @@
         let asyncFn = this.createAsync(this.code)
         await asyncFn()
       },
-      createAsync(code) {
+      async createAsync(code) {
         return new AsyncFunction(code)
       }
     }
