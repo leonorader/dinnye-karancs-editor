@@ -85,14 +85,14 @@
       }
     },
     methods: {
-      async runCode() {
+      runCode() {
         this.code = BlocklyJS.workspaceToCode(this.$refs['editor'].workspace)
         console.log(this.code)
 
         let AsyncFunction = Object.getPrototypeOf(async function(){}).constructor
 
         const F = new AsyncFunction(this.code)
-        return (F())
+        F();
       }
     }
   }
