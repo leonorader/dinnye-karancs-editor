@@ -5,7 +5,7 @@ async function wait(duration) {
 }
 
 function setHotelColour(colour) {
-  axios.put(`${BASE_URL}/hotel/colour`, colour)
+  axios.put(`${BASE_URL}/hotel/colour`, {colour})
     .then((response)  => {
       console.log(response)
     })
