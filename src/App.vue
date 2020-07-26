@@ -16,6 +16,8 @@
 
   import BlocklyJS from 'blockly/javascript'
 
+  const AsyncFunction = Object.getPrototypeOf(async function(){}).constructor;
+
   export default {
     name: 'app',
     components: {
@@ -89,10 +91,11 @@
         this.code = BlocklyJS.workspaceToCode(this.$refs['editor'].workspace)
         console.log(this.code)
 
-        let AsyncFunction = Object.getPrototypeOf(async function(){}).constructor
-
-        const F = new AsyncFunction(this.code)
-        F();
+        let asyncFn = this.createAsync(code)
+        await asyncFn()
+      },
+      createAsync(code) {
+        return new AsyncFunction(code)
       }
     }
   }

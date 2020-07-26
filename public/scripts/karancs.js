@@ -1,19 +1,19 @@
 const BASE_URL = 'https://dinnye-karancs.herokuapp.com/api'
 
-async function wait(duration) {
+function wait(duration) {
   return new Promise(resolve => setTimeout(resolve, duration));
 }
 
-async function setHotelColour(colour) {
+function setHotelColour(colour) {
   return axios.put(`${BASE_URL}/hotel/colour`, {colour})
 }
 
-async function setHotelMatrix(data) {
+function setHotelMatrix(data) {
   let matrix = {data: JSON.parse(data)}
   return axios.put(`${BASE_URL}/hotel/matrix`, matrix)
 }
 
-async function setRoomColour(floor, room, colour) {
+function setRoomColour(floor, room, colour) {
   let data = {floor, room, colour}
   return axios.put(`${BASE_URL}/hotel/rooms`, data)
 }
