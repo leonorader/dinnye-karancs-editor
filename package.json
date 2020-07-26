@@ -15,9 +15,7 @@
     "blockly": "^3.20200123.1",
     "core-js": "^3.6.4",
     "sweetalert2": "^8.19.0",
-    "vue": "^2.6.11"
-  },
-  "devDependencies": {
+    "vue": "^2.6.11",
     "@babel/plugin-syntax-import-meta": "^7.8.3",
     "@babel/preset-env": "^7.9.0",
     "@vue/cli-plugin-babel": "^3.0.1",
