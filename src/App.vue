@@ -78,8 +78,8 @@
             <block type="room_on"></block>
             <block type="room_on_with_colour"></block>
             <block type="room_off"></block>
-            <!--<block type="entresol"></block>-->
-            <!--<block type="entresol_with_colour"></block>-->
+            <block type="entresol"></block>
+            <block type="entresol_with_colour"></block>
             <!--<block type="entresol_with_video"></block>-->
           </category>
         </xml>`

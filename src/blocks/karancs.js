@@ -153,68 +153,68 @@ Blockly.Blocks['karancs_matrix_with_colour'] = {
     this.appendDummyInput()
       .appendField("karancs beállít színnel");
     this.appendDummyInput()
-      .appendField(new Blockly.FieldColour("#fff"), "room-0-0")
-      .appendField(new Blockly.FieldColour("#fff"), "room-0-1")
-      .appendField(new Blockly.FieldColour("#fff"), "room-0-2")
-      .appendField(new Blockly.FieldColour("#fff"), "room-0-3")
-      .appendField(new Blockly.FieldColour("#fff"), "room-0-4")
-      .appendField(new Blockly.FieldColour("#fff"), "room-0-5")
-      .appendField(new Blockly.FieldColour("#fff"), "room-0-6")
-      .appendField(new Blockly.FieldColour("#fff"), "room-0-7");
+      .appendField(new Blockly.FieldColour("#000"), "room-0-0")
+      .appendField(new Blockly.FieldColour("#000"), "room-0-1")
+      .appendField(new Blockly.FieldColour("#000"), "room-0-2")
+      .appendField(new Blockly.FieldColour("#000"), "room-0-3")
+      .appendField(new Blockly.FieldColour("#000"), "room-0-4")
+      .appendField(new Blockly.FieldColour("#000"), "room-0-5")
+      .appendField(new Blockly.FieldColour("#000"), "room-0-6")
+      .appendField(new Blockly.FieldColour("#000"), "room-0-7");
     this.appendDummyInput()
-      .appendField(new Blockly.FieldColour("#fff"), "room-1-0")
-      .appendField(new Blockly.FieldColour("#fff"), "room-1-1")
-      .appendField(new Blockly.FieldColour("#fff"), "room-1-2")
-      .appendField(new Blockly.FieldColour("#fff"), "room-1-3")
-      .appendField(new Blockly.FieldColour("#fff"), "room-1-4")
-      .appendField(new Blockly.FieldColour("#fff"), "room-1-5")
-      .appendField(new Blockly.FieldColour("#fff"), "room-1-6")
-      .appendField(new Blockly.FieldColour("#fff"), "room-1-7");
+      .appendField(new Blockly.FieldColour("#000"), "room-1-0")
+      .appendField(new Blockly.FieldColour("#000"), "room-1-1")
+      .appendField(new Blockly.FieldColour("#000"), "room-1-2")
+      .appendField(new Blockly.FieldColour("#000"), "room-1-3")
+      .appendField(new Blockly.FieldColour("#000"), "room-1-4")
+      .appendField(new Blockly.FieldColour("#000"), "room-1-5")
+      .appendField(new Blockly.FieldColour("#000"), "room-1-6")
+      .appendField(new Blockly.FieldColour("#000"), "room-1-7");
     this.appendDummyInput()
-      .appendField(new Blockly.FieldColour("#fff"), "room-2-0")
-      .appendField(new Blockly.FieldColour("#fff"), "room-2-1")
-      .appendField(new Blockly.FieldColour("#fff"), "room-2-2")
-      .appendField(new Blockly.FieldColour("#fff"), "room-2-3")
-      .appendField(new Blockly.FieldColour("#fff"), "room-2-4")
-      .appendField(new Blockly.FieldColour("#fff"), "room-2-5")
-      .appendField(new Blockly.FieldColour("#fff"), "room-2-6")
-      .appendField(new Blockly.FieldColour("#fff"), "room-2-7");
+      .appendField(new Blockly.FieldColour("#000"), "room-2-0")
+      .appendField(new Blockly.FieldColour("#000"), "room-2-1")
+      .appendField(new Blockly.FieldColour("#000"), "room-2-2")
+      .appendField(new Blockly.FieldColour("#000"), "room-2-3")
+      .appendField(new Blockly.FieldColour("#000"), "room-2-4")
+      .appendField(new Blockly.FieldColour("#000"), "room-2-5")
+      .appendField(new Blockly.FieldColour("#000"), "room-2-6")
+      .appendField(new Blockly.FieldColour("#000"), "room-2-7");
     this.appendDummyInput()
-      .appendField(new Blockly.FieldColour("#fff"), "room-3-0")
-      .appendField(new Blockly.FieldColour("#fff"), "room-3-1")
-      .appendField(new Blockly.FieldColour("#fff"), "room-3-2")
-      .appendField(new Blockly.FieldColour("#fff"), "room-3-3")
-      .appendField(new Blockly.FieldColour("#fff"), "room-3-4")
-      .appendField(new Blockly.FieldColour("#fff"), "room-3-5")
-      .appendField(new Blockly.FieldColour("#fff"), "room-3-6")
-      .appendField(new Blockly.FieldColour("#fff"), "room-3-7");
+      .appendField(new Blockly.FieldColour("#000"), "room-3-0")
+      .appendField(new Blockly.FieldColour("#000"), "room-3-1")
+      .appendField(new Blockly.FieldColour("#000"), "room-3-2")
+      .appendField(new Blockly.FieldColour("#000"), "room-3-3")
+      .appendField(new Blockly.FieldColour("#000"), "room-3-4")
+      .appendField(new Blockly.FieldColour("#000"), "room-3-5")
+      .appendField(new Blockly.FieldColour("#000"), "room-3-6")
+      .appendField(new Blockly.FieldColour("#000"), "room-3-7");
     this.appendDummyInput()
-      .appendField(new Blockly.FieldColour("#fff"), "room-4-0")
-      .appendField(new Blockly.FieldColour("#fff"), "room-4-1")
-      .appendField(new Blockly.FieldColour("#fff"), "room-4-2")
-      .appendField(new Blockly.FieldColour("#fff"), "room-4-3")
-      .appendField(new Blockly.FieldColour("#fff"), "room-4-4")
-      .appendField(new Blockly.FieldColour("#fff"), "room-4-5")
-      .appendField(new Blockly.FieldColour("#fff"), "room-4-6")
-      .appendField(new Blockly.FieldColour("#fff"), "room-4-7");
+      .appendField(new Blockly.FieldColour("#000"), "room-4-0")
+      .appendField(new Blockly.FieldColour("#000"), "room-4-1")
+      .appendField(new Blockly.FieldColour("#000"), "room-4-2")
+      .appendField(new Blockly.FieldColour("#000"), "room-4-3")
+      .appendField(new Blockly.FieldColour("#000"), "room-4-4")
+      .appendField(new Blockly.FieldColour("#000"), "room-4-5")
+      .appendField(new Blockly.FieldColour("#000"), "room-4-6")
+      .appendField(new Blockly.FieldColour("#000"), "room-4-7");
     this.appendDummyInput()
-      .appendField(new Blockly.FieldColour("#fff"), "room-5-0")
-      .appendField(new Blockly.FieldColour("#fff"), "room-5-1")
-      .appendField(new Blockly.FieldColour("#fff"), "room-5-2")
-      .appendField(new Blockly.FieldColour("#fff"), "room-5-3")
-      .appendField(new Blockly.FieldColour("#fff"), "room-5-4")
-      .appendField(new Blockly.FieldColour("#fff"), "room-5-5")
-      .appendField(new Blockly.FieldColour("#fff"), "room-5-6")
-      .appendField(new Blockly.FieldColour("#fff"), "room-5-7");
+      .appendField(new Blockly.FieldColour("#000"), "room-5-0")
+      .appendField(new Blockly.FieldColour("#000"), "room-5-1")
+      .appendField(new Blockly.FieldColour("#000"), "room-5-2")
+      .appendField(new Blockly.FieldColour("#000"), "room-5-3")
+      .appendField(new Blockly.FieldColour("#000"), "room-5-4")
+      .appendField(new Blockly.FieldColour("#000"), "room-5-5")
+      .appendField(new Blockly.FieldColour("#000"), "room-5-6")
+      .appendField(new Blockly.FieldColour("#000"), "room-5-7");
     this.appendDummyInput()
-      .appendField(new Blockly.FieldColour("#fff"), "room-6-0")
-      .appendField(new Blockly.FieldColour("#fff"), "room-6-1")
-      .appendField(new Blockly.FieldColour("#fff"), "room-6-2")
-      .appendField(new Blockly.FieldColour("#fff"), "room-6-3")
-      .appendField(new Blockly.FieldColour("#fff"), "room-6-4")
-      .appendField(new Blockly.FieldColour("#fff"), "room-6-5")
-      .appendField(new Blockly.FieldColour("#fff"), "room-6-6")
-      .appendField(new Blockly.FieldColour("#fff"), "room-6-7");
+      .appendField(new Blockly.FieldColour("#000"), "room-6-0")
+      .appendField(new Blockly.FieldColour("#000"), "room-6-1")
+      .appendField(new Blockly.FieldColour("#000"), "room-6-2")
+      .appendField(new Blockly.FieldColour("#000"), "room-6-3")
+      .appendField(new Blockly.FieldColour("#000"), "room-6-4")
+      .appendField(new Blockly.FieldColour("#000"), "room-6-5")
+      .appendField(new Blockly.FieldColour("#000"), "room-6-6")
+      .appendField(new Blockly.FieldColour("#000"), "room-6-7");
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
     this.setColour(20);
@@ -338,65 +338,63 @@ Blockly.JavaScript['room_on_with_colour'] = function(block) {
 };
 
 // entresol
-//
-// Blockly.Blocks['entresol'] = {
-//   init: function() {
-//     this.appendDummyInput()
-//       .appendField("félemelet beállít");
-//     this.appendDummyInput()
-//       .setAlign(Blockly.ALIGN_CENTRE)
-//       .appendField(new Blockly.FieldCheckbox("TRUE"), "window-1")
-//       .appendField(new Blockly.FieldCheckbox("TRUE"), "window-2")
-//       .appendField(new Blockly.FieldCheckbox("TRUE"), "window-3")
-//       .appendField(new Blockly.FieldCheckbox("TRUE"), "window-4");
-//     this.setPreviousStatement(true, null);
-//     this.setNextStatement(true, null);
-//     this.setColour(210);
-//     this.setTooltip("");
-//     this.setHelpUrl("");
-//   }
-// };
-//
-// Blockly.JavaScript['entresol'] = function(block) {
-//   var checkbox_window_1 = block.getFieldValue('window-1') == 'TRUE';
-//   var checkbox_window_2 = block.getFieldValue('window-2') == 'TRUE';
-//   var checkbox_window_3 = block.getFieldValue('window-3') == 'TRUE';
-//   var checkbox_window_4 = block.getFieldValue('window-4') == 'TRUE';
-//   // TODO: Assemble JavaScript into code variable.
-//   var code = '...;\n';
-//   return code;
-// };
-//
-// // entresol with colour
-//
-// Blockly.Blocks['entresol_with_colour'] = {
-//   init: function() {
-//     this.appendDummyInput()
-//       .appendField("félemelet beállít színnel");
-//     this.appendDummyInput()
-//       .setAlign(Blockly.ALIGN_CENTRE)
-//       .appendField(new Blockly.FieldColour("#ffcc66"), "window-1")
-//       .appendField(new Blockly.FieldColour("#ffcc66"), "window-2")
-//       .appendField(new Blockly.FieldColour("#ffcc66"), "window-3")
-//       .appendField(new Blockly.FieldColour("#ffcc66"), "window-4");
-//     this.setPreviousStatement(true, null);
-//     this.setNextStatement(true, null);
-//     this.setColour(210);
-//     this.setTooltip("");
-//     this.setHelpUrl("");
-//   }
-// };
-//
-// Blockly.JavaScript['entresol_with_colour'] = function(block) {
-//   var colour_window_1 = block.getFieldValue('window-1');
-//   var colour_window_2 = block.getFieldValue('window-2');
-//   var colour_window_3 = block.getFieldValue('window-3');
-//   var colour_window_4 = block.getFieldValue('window-4');
-//   // TODO: Assemble JavaScript into code variable.
-//   var code = '...;\n';
-//   return code;
-// };
-//
+
+Blockly.Blocks['entresol'] = {
+  init: function() {
+    this.appendDummyInput()
+      .appendField("félemelet beállít");
+    this.appendDummyInput()
+      .setAlign(Blockly.ALIGN_CENTRE)
+      .appendField(new Blockly.FieldCheckbox("TRUE"), "window-1")
+      .appendField(new Blockly.FieldCheckbox("TRUE"), "window-2")
+      .appendField(new Blockly.FieldCheckbox("TRUE"), "window-3")
+      .appendField(new Blockly.FieldCheckbox("TRUE"), "window-4");
+    this.setPreviousStatement(true, null);
+    this.setNextStatement(true, null);
+    this.setColour(210);
+    this.setTooltip("");
+    this.setHelpUrl("");
+  }
+};
+
+Blockly.JavaScript['entresol'] = function(block) {
+  let data = [];
+  for (let i = 0; i < 4; i++) {
+    const window = block.getFieldValue(`window-${i + 1}`) === 'TRUE' ? '#fff' : '#000';
+    data.push(window);
+  }
+  return `await setEntresol(\'${JSON.stringify(data)}\');\n`;
+};
+
+// entresol with colour
+
+Blockly.Blocks['entresol_with_colour'] = {
+  init: function() {
+    this.appendDummyInput()
+      .appendField("félemelet beállít színnel");
+    this.appendDummyInput()
+      .setAlign(Blockly.ALIGN_CENTRE)
+      .appendField(new Blockly.FieldColour("#000"), "window-1")
+      .appendField(new Blockly.FieldColour("#000"), "window-2")
+      .appendField(new Blockly.FieldColour("#000"), "window-3")
+      .appendField(new Blockly.FieldColour("#000"), "window-4");
+    this.setPreviousStatement(true, null);
+    this.setNextStatement(true, null);
+    this.setColour(210);
+    this.setTooltip("");
+    this.setHelpUrl("");
+  }
+};
+
+Blockly.JavaScript['entresol_with_colour'] = function(block) {
+  let data = [];
+  for (let i = 0; i < 4; i++) {
+    const window = block.getFieldValue(`window-${i + 1}`);
+    data.push(window);
+  }
+  return `await setEntresol(\'${JSON.stringify(data)}\');\n`;
+};
+
 // // entresol with video
 //
 // Blockly.Blocks['entresol_with_video'] = {
@@ -404,7 +402,7 @@ Blockly.JavaScript['room_on_with_colour'] = function(block) {
 //     this.appendDummyInput()
 //       .appendField("félemelet videó");
 //     this.appendDummyInput()
-//       .appendField(new Blockly.FieldDropdown([["1.","window-0"], ["2.","window-1"], ["3.","window-3"]]), "window")
+//       .appendField(new Blockly.FieldDropdown([["1.","0"], ["2.","1"], ["3.","2"], ["4.","3"]]), "window")
 //       .appendField("ablak");
 //     this.appendDummyInput()
 //       .appendField(new Blockly.FieldTextInput("https://www.youtube.com/watch?v=Hx9YMDsp5wI"), "link");

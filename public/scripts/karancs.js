@@ -18,6 +18,18 @@ function setRoomColour(floor, room, colour) {
   return axios.put(`${BASE_URL}/hotel/rooms`, data)
 }
 
+// ----
+
+function setEntresol(data) {
+  let entresol = {data: JSON.parse(data)}
+  return axios.put(`${BASE_URL}/entresol`, entresol)
+}
+
+function setEntresolWindow(window, data, type) {
+  let entresol = {window, data, type}
+  return axios.put(`${BASE_URL}/entresol/window`, entresol)
+}
+
 //
 // function setLightBulbColour(colour) {
 //   axios.put(`${BASE_URL}/bulb/colour`, colour)
